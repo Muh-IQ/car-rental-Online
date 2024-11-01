@@ -1,0 +1,130 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 85%;
+    height: 250px;
+    border-radius: 3rem;
+    border: #e3e3e3 2px solid;
+    padding: 1%;
+    padding-left: 2rem;
+}
+
+
+.card:hover {
+    scale: 1.02;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.car-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 40%;
+    border-radius: 3rem;
+    border: 2px solid #00BBFF;
+
+}
+
+.car-info {
+    height: 100%;
+    width: 50%;
+}
+
+.car-info .header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-weight: bold;
+    height: 20%;
+    font-size: 1.3rem;
+}
+
+.car-info .header .logo {
+    height: 3rem;
+    width: 3rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+
+}
+
+.main-info {
+    display: flex;
+    height: 60%;
+    gap: 1rem;
+    padding: 1rem;
+
+}
+
+
+.main-info div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35%;
+}
+.main-info>div>p{
+    width: 100%;
+    height: 20%;
+    padding-left: 35px;
+}
+.main-info>div:first-child>p:first-child {
+    background: url(../../../../Images/car-seat.png) no-repeat;
+    background-size: contain;
+}
+.main-info>div:first-child>p:nth-child(2) {
+    background: url(../../../../Images/air-conditioner.png) no-repeat;
+    background-size: contain;
+}
+.main-info>div:first-child>p:nth-child(3) {
+    background: url(../../../../Images/transmission.png) no-repeat;
+    background-size: contain;
+}
+.main-info>div:nth-child(2)>p:first-child {
+    background: url(../../../../Images/car-door.png) no-repeat;
+    background-size: contain;
+}
+.main-info>div:nth-child(2)>p:nth-child(2) {
+    background: url(../../../../Images/menu.png) no-repeat;
+    background-size: contain;
+}
+.main-info>div:nth-child(2)>p:nth-child(3) {
+    background: url(../../../../Images/fuel-station.png) no-repeat;
+    background-size: contain;
+}
+
+
+
+.car-info .select-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    height: 100%;
+    width: 7rem;
+    background-color: #00BBFF;
+    border-radius: 0.5rem;
+}
+
+.select-btn:focus {
+    background-color: #00a1db;
+    scale: 0.8;
+}
+
+
+.car-info div {
+    width: 100%;
+    margin-top: 3px;
+}
+.footer{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .price-per-day-in-footer {
+    padding-left: 35%;
+}

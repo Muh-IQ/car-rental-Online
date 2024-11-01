@@ -1,0 +1,6 @@
+@Car_rental_by_EF_HostAddress = http://localhost:5194
+
+GET {{Car_rental_by_EF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,78 @@
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+}
+
+
+.info-payment-container {
+    height: 85%;
+    width: 75%;
+    padding-top: 25px;
+    border-right: #c0c0c0 2px solid;
+    position: relative;
+    padding-left: 20px;
+}
+
+
+.info-payment-container > span{
+    color: white;
+    background-color: #00bbff;
+    padding: 5px 10px;
+    width: 45%;
+    display: block;
+    border-radius: 5px;
+}
+
+
+.person-info , .pay-info{
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+}
+
+
+
+.group {
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: column;
+    width: 45%;
+}
+
+.group label {
+    width: 30%;
+    font-weight: bold;
+}
+
+.group input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.save {
+    display: flex;
+    justify-content: center;
+    margin: 65px 0;
+}
+.submit-btn {
+    background-color: #00aaff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.submit-btn:hover {
+    background-color: #0088cc;
+}

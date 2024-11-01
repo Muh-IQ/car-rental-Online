@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "conection": "Server=.;Database=CarRental_EF_Core;User Id=sa;Password=se123456;TrustServerCertificate=True;"
+  }
+}

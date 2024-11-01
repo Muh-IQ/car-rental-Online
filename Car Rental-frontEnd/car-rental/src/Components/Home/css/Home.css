@@ -1,0 +1,80 @@
+.backgound {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://images.netdirector.co.uk/gforces-auto/image/upload/q_auto,c_fill,f_auto,fl_lossy,w_1280,h_720/auto-client/93e78cf83109c730985ca4e4a74486e7/m5_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    border-radius: 30px;
+    transform: translateY(-60%);
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+    margin: 0;
+}
+
+.title h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.686);
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0;
+}
+
+.date {
+    align-items: center;
+    display: flex;
+}
+
+.date div {
+    display: flex;
+    margin: 20px 50px;
+    gap: 10px;
+}
+
+.date label {
+    font-size: 20px;
+    color: #00bbff;
+    font-weight: bold;
+}
+
+.date input {
+    width: 100%;
+    height: 100%;
+    font-size: 21px;
+    border-radius: 6px;
+    border-color: #00bbff;
+    color: #00bbff;
+    text-align: center;
+}
+
+.search {
+    background-color: #00bbff;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+a{
+    text-decoration: none; /* لإلغاء الخط تحت النص */
+}
